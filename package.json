@@ -4,7 +4,10 @@
   "main": "index.js",
   "types": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\""
+    "test": "echo \"Error: no test specified\"",
+    "start": "node index.js",
+    "start:dev":"node --watch index.js",
+    "prod":"npx pm2 restart --name abduraxim index.js"
   },
   "keywords": [],
   "author": "",
