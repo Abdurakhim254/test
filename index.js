@@ -6,10 +6,10 @@ app.get("/", (req, res) => {
   res.send("Salom alaykum");
 });
 
-// app.use("/", (req, res) => {
-//   res.send("Salom alaykum");
-// });
+app.use("/", (req, res) => {
+  res.send("Salom alaykum");
+});  
 
-app.listen(4080, () => {
+app.listen(6000, () => {
   console.log("Server is running on port 4080");
 });
