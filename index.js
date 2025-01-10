@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/", (req, res) => {
-  res.send("Salom alaykum");
+  res.send("Asalom alaykum");
 });  
 
 app.listen(3030, () => {
