@@ -3,7 +3,7 @@ import  express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Salom Alaykum Uzbekiston");
+  res.send("Salom Alaykum Uzbekiston olga vatanim");
 });
 
 app.use("/", (req, res) => {
