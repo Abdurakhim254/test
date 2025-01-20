@@ -11,6 +11,9 @@ app.use("/", (req, res) => {
 });  
 
 console.log("Salom dunyo")
+console.log("Salom dunyo")
+console.log("Salom dunyo")
+console.log("Salom dunyo")
 
 
 
