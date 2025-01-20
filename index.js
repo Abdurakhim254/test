@@ -10,7 +10,7 @@ app.use("/", (req, res) => {
   res.send("Asalom Alaykum");
 });  
 
-
+console.log("Salom dunyo")
 
 
 
